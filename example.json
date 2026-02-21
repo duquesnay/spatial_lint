@@ -1,0 +1,10 @@
+{
+  "canvas": { "width": 320, "height": 240 },
+  "elements": [
+    { "id": "bg", "x": 0, "y": 0, "width": 320, "height": 240, "label": "background" },
+    { "id": "player", "x": 100, "y": 180, "width": 32, "height": 32, "label": "player" },
+    { "id": "enemy", "x": 104, "y": 50, "width": 32, "height": 32, "label": "enemy" },
+    { "id": "score", "x": 155, "y": -3, "width": 80, "height": 20, "label": "score" },
+    { "id": "hud", "x": 150, "y": 0, "width": 80, "height": 20, "label": "hud" }
+  ]
+}
