@@ -71,7 +71,7 @@ export function exceedsBounds(
   canvas: { width: number; height: number }
 ): BoundsExceeded {
   const elementBounds = bounds(element);
-  const result: Omit<BoundsExceeded, null> = {};
+  const result: Exclude<BoundsExceeded, null> = {};
 
   // Check each boundary
   if (elementBounds.left < 0) {
